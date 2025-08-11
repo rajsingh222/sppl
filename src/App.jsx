@@ -28,6 +28,7 @@ const App = () => {
 
     <Routes>
       {/* Login route without layout */}
+
       <Route path="/login" element={<Login />} />
       <Route path="/signin" element={<Signup/>}/>
       <Route path="/test" element={<TDS/>}/>
@@ -36,7 +37,9 @@ const App = () => {
       <Route path="/realtime-data" element={<RealTimeData/>}/>
       {/* Routes using the Layout */}
       <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
+        {/* <Route index element={<HomePage />} /> */}
+
+        <Route path="/" element={<HomePage />}/>
         <Route path="sensor-layout" element={<SensorLayout />} />
         <Route path="sensor-monitoring" element={<SensorMonitoring />} />
         <Route path="design-proof-check" element={<DesignProofChecks/>}/>

@@ -206,6 +206,9 @@ const SignUp = () => {
             </FormControl> */}
 
             {/* Phone Number */}
+
+           
+
             <FormControl isRequired>
               <FormLabel>Phone Number</FormLabel>
               <Input
