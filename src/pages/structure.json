@@ -1,0 +1,367 @@
+{
+    "columns": [
+        {
+            "position": [
+                0.0,
+                0.8,
+                0.0
+            ],
+            "height": 1.6,
+            "radius": 0.015,
+            "color": "#808080"
+        },
+        {
+            "position": [
+                0.4,
+                0.8,
+                0.0
+            ],
+            "height": 1.6,
+            "radius": 0.015,
+            "color": "#808080"
+        },
+        {
+            "position": [
+                0.0,
+                0.8,
+                0.4
+            ],
+            "height": 1.6,
+            "radius": 0.015,
+            "color": "#808080"
+        },
+        {
+            "position": [
+                0.4,
+                0.8,
+                0.4
+            ],
+            "height": 1.6,
+            "radius": 0.015,
+            "color": "#808080"
+        }
+    ],
+    "beams": [
+        {
+            "position": [
+                0.2,
+                0.4,
+                0.4
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "z",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.2,
+                0.8,
+                0.4
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "z",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.2,
+                1.2,
+                0.4
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "z",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.2,
+                1.6,
+                0.4
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "z",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.2,
+                0.4,
+                0.0
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "z",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.2,
+                0.8,
+                0.0
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "z",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.2,
+                1.2,
+                0.0
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "z",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.2,
+                1.6,
+                0.0
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "z",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.4,
+                0.4,
+                0.2
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "x",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.4,
+                0.8,
+                0.2
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "x",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.4,
+                1.2,
+                0.2
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "x",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.4,
+                1.6,
+                0.2
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "x",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.0,
+                0.4,
+                0.2
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "x",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.0,
+                0.8,
+                0.2
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "x",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.0,
+                1.2,
+                0.2
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "x",
+            "color": "#c0c0c0"
+        },
+        {
+            "position": [
+                0.0,
+                1.6,
+                0.2
+            ],
+            "length": 0.4,
+            "radius": 0.015,
+            "axis": "x",
+            "color": "#c0c0c0"
+        }
+    ],
+    "bases": [
+        {
+            "position": [
+                0.0,
+                -0.01,
+                0.0
+            ],
+            "dimensions": [
+                0.1,
+                0.01,
+                0.1
+            ],
+            "color": "#ffff00"
+        },
+        {
+            "position": [
+                0.4,
+                -0.01,
+                0.0
+            ],
+            "dimensions": [
+                0.1,
+                0.01,
+                0.1
+            ],
+            "color": "#ffff00"
+        },
+        {
+            "position": [
+                0.0,
+                -0.01,
+                0.4
+            ],
+            "dimensions": [
+                0.1,
+                0.01,
+                0.1
+            ],
+            "color": "#ffff00"
+        },
+        {
+            "position": [
+                0.4,
+                -0.01,
+                0.4
+            ],
+            "dimensions": [
+                0.1,
+                0.01,
+                0.1
+            ],
+            "color": "#ffff00"
+        }
+    ],
+    "sensors": [
+        [
+            0,
+            0.6,
+            0
+        ],
+        [
+            0.4,
+            0.2,
+            0
+        ],
+        [
+            0.4,
+            0.4,
+            0.4
+        ],
+        [
+            0,
+            0.4,
+            0.4
+        ],
+        [
+            0,
+            0.8,
+            0
+        ],
+        [
+            0.4,
+            0.8,
+            0
+        ],
+        [
+            0.4,
+            0.8,
+            0.4
+        ],
+        [
+            0,
+            0.8,
+            0.4
+        ],
+        [
+            0,
+            1.4,
+            0
+        ],
+        [
+            0.4,
+            1.2,
+            0
+        ],
+        [
+            0.4,
+            1.2,
+            0.4
+        ],
+        [
+            0.2,
+            1.2,
+            0.4
+        ],
+        [
+            0,
+            1.6,
+            0
+        ],
+        [
+            0.4,
+            1.6,
+            0
+        ],
+        [
+            0.4,
+            1.4,
+            0.4
+        ],
+        [
+            0,
+            1.6,
+            0.4
+        ]
+    ],
+    "originMarker": {
+        "position": [
+            0,
+            0,
+            0
+        ],
+        "radius": 0.02,
+        "color": "#ffffff"
+    }
+}

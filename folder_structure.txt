@@ -1,0 +1,108 @@
+Folder structure of: D:\Dashboard-SPPL
+
+📄 .env
+📄 README.md
+📁 public/
+    📄 .htaccess
+    📁 AutoCadDrawings/
+        📄 architectural_-_annotation_scaling_and_multileaders.dwg
+        📄 architectural_example-imperial.dwg
+        📄 building.glb
+        📄 kawashaki_ninja_h2.glb
+        📄 tablet.dwg
+    📁 CSVs/
+        📄 FFT.csv
+        📄 Record.xlsx
+        📄 Test Sensor Data.csv
+    📁 ProjectVideo/
+        📄 buildVideo.mp4
+        📄 construction.mp4
+    📁 Reports/
+        📄 R1.pdf
+        📄 R2.pdf
+        📄 R3.pdf
+    📁 StructuralDrawings/
+        📄 v1.png
+        📄 v2.png
+        📄 v3.png
+        📄 v4.png
+    📁 images/
+        📄 bg-img.jpg
+        📄 iitd-logo.png
+        📄 sppl-logo.png
+📁 src/
+    📄 App.css
+    📄 App.jsx
+    📁 api/
+        📄 FetchProjects.js
+        📄 GetSensorDataModule.js
+        📄 Login.js
+        📄 Resources.js
+        📄 SensorDataModule.js
+        📄 Signup.js
+    📁 components/
+        📄 AddProject.jsx
+        📄 AlarmCard.jsx
+        📄 AuthContext.jsx
+        📄 AutoCadViewer.jsx
+        📄 CsvDataPlot.jsx
+        📄 DeflectionProfile.jsx
+        📄 ErrorBoundary.jsx
+        📄 FFT.jsx
+        📄 FrequencyAnalysis.jsx
+        📄 Layout.jsx
+        📄 MapCard.jsx
+        📄 ModelViewerComponent.jsx
+        📄 Navbar.jsx
+        📄 NoSideLayout.jsx
+        📄 NotificationMenu.jsx
+        📄 PageTabs.jsx
+        📄 PdfUploader.jsx
+        📄 RealTimeData.jsx
+        📄 RealTimeDataChart.jsx
+        📄 SearchBar.jsx
+        📄 Select.jsx
+        📄 SensorChart.jsx
+        📄 SensorsCard.jsx
+        📄 Sidebar.jsx
+        📄 TestingAgencyForm.jsx
+        📄 ThreeDStructure.jsx
+        📄 ThreeInstance.js
+        📄 WeatherCard.jsx
+        📄 WindDirection.jsx
+        📄 WindSpeedChart.jsx
+        📁 ui/
+            📄 color-mode.jsx
+            📄 provider.jsx
+            📄 toaster.jsx
+            📄 tooltip.jsx
+    📄 index.css
+    📄 main.jsx
+    📁 pages/
+        📄 AboutPage.jsx
+        📄 AddProjects.jsx
+        📄 AdvancedFeatures.jsx
+        📄 Contact.jsx
+        📄 ContactPage.jsx
+        📄 DesignProofChecks.jsx
+        📄 General.jsx
+        📄 HomePage.jsx
+        📄 LoadTesting.jsx
+        📄 LoginPage.jsx
+        📄 NonDesEval.jsx
+        📄 ProfilePage.jsx
+        📄 Project.jsx
+        📄 ResetPassword.jsx
+        📄 SensorLayout.jsx
+        📄 SensorMonitoring.jsx
+        📄 SigninPage.jsx
+        📄 StrHealthMon.jsx
+        📄 Test.jsx
+        📄 Test2.jsx
+        📄 structure.json
+    📄 theme.js
+📄 index.html
+📄 jsconfig.json
+📄 package.json
+📄 package-lock.json
+📄 vite.config.js
