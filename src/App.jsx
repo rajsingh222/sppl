@@ -1,9 +1,9 @@
 // App.jsx
 import React from 'react';
 
-import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import HomePage from "./pages/HomePage";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SensorLayout from "./pages/SensorLayout";
 import SensorMonitoring from "./pages/SensorMonitoring";
 import Login from "./pages/LoginPage";
