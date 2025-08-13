@@ -23,34 +23,66 @@ import Project from "./pages/Project";
 import General from "./pages/General";
 import ContactPage from "./pages/Contact";
 
+import AddProjectPage from './pages/AddProjects';
+
+
+// const App = () => {
+//   return (
+
+//     <Routes>
+//       {/* Login route without layout */}
+
+//       <Route path="/login" element={<Login />} />
+//       <Route path="/signin" element={<Signup/>}/>
+//       <Route path="/test" element={<TDS/>}/>
+//       {/* <Route path="/test2" element={<test2/>}/> */}
+//       <Route path="/password-reset-request" element={<ResetPassword/>}/>
+//       <Route path="/realtime-data" element={<RealTimeData/>}/>
+//       {/* Routes using the Layout */}
+//       <Route path="/" element={<Layout />}>
+//         {/* <Route index element={<HomePage />} /> */}
+
+//         <Route path="/" element={<HomePage />}/>
+//         <Route path="sensor-layout" element={<SensorLayout />} />
+//         <Route path="sensor-monitoring" element={<SensorMonitoring />} />
+//         <Route path="design-proof-check" element={<DesignProofChecks/>}/>
+//         <Route path="structural-health-monitoring" element={<SHM/>}/>
+//         <Route path="profile" element={<ProfilePage />} />
+//         <Route path="non-destructive-evaluation" element={<NDE/>}/>
+//         <Route path="load-testing" element={<LoadTesting />} />
+//         <Route path="project" element={<Project />} />
+//         <Route path="general" element={<General />} />
+//         <Route path="contact" element={<ContactPage/>}/>
+
+//       </Route>
+//     </Routes>
+//   );
+// };
+
 const App = () => {
   return (
-
     <Routes>
-      {/* Login route without layout */}
-
+      {/* Login & public routes */}
       <Route path="/login" element={<Login />} />
-      <Route path="/signin" element={<Signup/>}/>
-      <Route path="/test" element={<TDS/>}/>
-      {/* <Route path="/test2" element={<test2/>}/> */}
-      <Route path="/password-reset-request" element={<ResetPassword/>}/>
-      <Route path="/realtime-data" element={<RealTimeData/>}/>
-      {/* Routes using the Layout */}
-      <Route path="/" element={<Layout />}>
-        {/* <Route index element={<HomePage />} /> */}
+      <Route path="/signin" element={<Signup />} />
+      <Route path="/test" element={<TDS />} />
+      <Route path="/password-reset-request" element={<ResetPassword />} />
+      <Route path="/realtime-data" element={<RealTimeData />} />
 
-        <Route path="/" element={<HomePage />}/>
+      {/* Routes using Layout */}
+      <Route path="/" element={<Layout />}>
+        <Route path="/" element={<HomePage />} />
         <Route path="sensor-layout" element={<SensorLayout />} />
         <Route path="sensor-monitoring" element={<SensorMonitoring />} />
-        <Route path="design-proof-check" element={<DesignProofChecks/>}/>
-        <Route path="structural-health-monitoring" element={<SHM/>}/>
+        <Route path="design-proof-check" element={<DesignProofChecks />} />
+        <Route path="structural-health-monitoring" element={<SHM />} />
         <Route path="profile" element={<ProfilePage />} />
-        <Route path="non-destructive-evaluation" element={<NDE/>}/>
+        <Route path="non-destructive-evaluation" element={<NDE />} />
         <Route path="load-testing" element={<LoadTesting />} />
         <Route path="project" element={<Project />} />
+        <Route path="add-project" element={<AddProjectPage/>} /> {/* new route */}
         <Route path="general" element={<General />} />
-        <Route path="contact" element={<ContactPage/>}/>
-
+        <Route path="contact" element={<ContactPage />} />
       </Route>
     </Routes>
   );

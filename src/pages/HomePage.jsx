@@ -893,7 +893,7 @@ const HomePage = () => {
 
             <Box className="section-container" mt={1}>
               <TypewriterText
-                text="Att Sanrachna Prahari Pvt. Ltd, we are pioneering the future of Structural Health Monitoring (SHM) in India."
+                text="Att Sanrachna Prahari Pvt Ltd, we are pioneering the future of Structural Health Monitoring (SHM) in India."
                 speed={70}
               />
             </Box>
